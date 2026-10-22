@@ -209,3 +209,7 @@ claude plugin eval . --allow-tools Write,Edit,Bash --scaffold
 ```
 
 These are real model runs (billed), each designing a small part.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
