@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: learns-from-test-print
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  The assistant reads printer.json and lamp_arm.scad, then makes the screw holes
+  tighter (lower hole allowance) and the thread looser (higher radial thread
+  clearance), showing old and new values. It records both lessons in printer.json
+  under "proven" (date, design, what, value, result), updating hole_allowance_mm
+  as well, and keeps the .scad Printer section consistent with printer.json. It
+  re-checks that the boss wall around the looser thread still meets the minimum
+  wall, and says which values to try on the next print.

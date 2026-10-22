@@ -1,0 +1,14 @@
+schema_version: "1.1"
+name: gopro-clamp-fits-from-profile
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  Using the existing printer.json (slide clearance 0.25 mm, minimum wall 2.4 mm),
+  the assistant designs clamp.scad. Its GoPro finger gaps are derived from the
+  camera's 3.0 mm fingers plus 0.25 mm per side (about 3.5 mm), not copied as a
+  fixed standard gap. The ring wall is 3.2 mm, and the M3 and M5 holes get the hole
+  allowance. Nut pockets and horizontal holes print without supports (teardrops,
+  vertex-up hexes, no overhanging finger ends). The walls behind the nuts are at
+  least 2.4 mm. A camera-side mount is swept through its tilt range and the
+  usable range is reported. A measured-versus-requested table covers walls, holes,
+  finger gaps and the bar fit, and the M3 screw length is stated.

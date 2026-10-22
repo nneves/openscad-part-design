@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: reuses-specs-from-prompt
+expected_outcome: |
+  The user gave the printer specs in the request, so the assistant writes
+  printer.json from them (Bambu Lab A1 mini, 180 x 180 x 180 bed, 0.4 mm nozzle,
+  PETG, 2.0 mm minimum wall), marks the values it filled in from defaults, and
+  confirms the profile in one line instead of asking the printer questions. The
+  .scad file next to it copies those values into its Printer section, asserts the
+  walls against 2.0 mm, sizes the cable slots from 6 mm plus the clearance, and fits
+  the 180 x 180 bed.

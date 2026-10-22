@@ -1,0 +1,17 @@
+{
+  "printer": "Creality Ender 3 V2",
+  "bed_mm": [220, 220, 250],
+  "nozzle_mm": 0.6,
+  "layer_mm": 0.28,
+  "materials": { "general": "PLA", "strong": "PLA" },
+  "min_wall_mm": 3.0,
+  "hole_allowance_mm": 0.4,
+  "slide_clearance_mm": 0.3,
+  "max_bridge_mm": 10,
+  "max_overhang_deg": 45,
+  "supports": false,
+  "slicer": "Cura",
+  "defaults_used": ["max_overhang_deg"],
+  "proven": [],
+  "updated": "2026-10-10"
+}

@@ -1,0 +1,15 @@
+schema_version: "1.1"
+name: replicates-drawing
+expected_outcome: |
+  The drawing ("Modeling Practice Drawings 126", isometric with dimensions) shows a
+  cylinder D50 x 80 with a D35 x 16 boss (96 overall) and a D20 bore, and a 40 mm
+  tall fork bracket 10 mm above the cylinder base. The bracket has lugs 10 thick,
+  70 apart (90 overall), 45 long, with 2 x D12 holes 20 up and convex R70 ends; 10 mm
+  cross pieces step in to 10 mm walls 15 from the centre line; the slot between the
+  walls ends 35 from the cylinder axis; the cross pieces' backs are 65 from it.
+  The assistant downloads and zooms the image, lists the dimensions with what each
+  measures, marks the hole position along the lug as inferred and the R70 arc
+  placement as ambiguous, writes bracket126.scad with sharp edges and exact sizes,
+  and reports a drawing-versus-model table from measurements. It reports that the
+  bracket's underside needs supports and offers a printable variant instead of
+  changing the replica.

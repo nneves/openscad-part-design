@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: asks-printer-first
+expected_outcome: |
+  The folder has no printer.json, so before modelling the assistant asks for the
+  printer specifications in numbered questions with a default for each (printer and
+  bed size, nozzle, materials, minimum wall, hole allowance, fit clearance, bridges
+  and overhangs, supports), says the answers will be saved in printer.json next to
+  the .scad file, and also asks the brief questions it needs (mounting, cable
+  hiding, how the tilt is locked, looks). It does not present a finished design
+  built on assumed printer limits.

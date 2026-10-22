@@ -1,0 +1,17 @@
+{
+  "printer": "Original Prusa i3 MK3S",
+  "bed_mm": [250, 210, 210],
+  "nozzle_mm": 0.4,
+  "layer_mm": 0.2,
+  "materials": { "general": "PLA", "strong": "PETG" },
+  "min_wall_mm": 2.4,
+  "hole_allowance_mm": 0.3,
+  "slide_clearance_mm": 0.25,
+  "max_bridge_mm": 14,
+  "max_overhang_deg": 45,
+  "supports": false,
+  "slicer": "PrusaSlicer",
+  "defaults_used": ["layer_mm", "max_bridge_mm", "max_overhang_deg"],
+  "proven": [],
+  "updated": "2026-10-20"
+}
